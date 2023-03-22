@@ -25,12 +25,15 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - userName: 18si
-            repoName: TVBox
+          - userName: q215613905
+            repoName: TVBoxOS
             branchName: main
           - userName: takagen99
             repoName: Box
             branchName: main
+          - userName: power721
+            repoName: TVBoxOS
+            branchName: dev
     steps:
       - name: Checkout
         uses: actions/checkout@v3
